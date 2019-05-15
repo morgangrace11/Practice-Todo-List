@@ -1,0 +1,26 @@
+{
+  "name": "Practice-Todo-List",
+  "version": "1.0.0",
+  "description": "Todo list to practice angularjs and php",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morgangrace11/Practice-Todo-List.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/morgangrace11/Practice-Todo-List/issues"
+  },
+  "homepage": "https://github.com/morgangrace11/Practice-Todo-List#readme",
+  "dependencies": {
+    "angular": "^1.7.8",
+    "angular-loader": "^1.7.8",
+    "angular-route": "^1.7.8",
+    "html5-boilerplate": "^7.1.0"
+  }
+}
