@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</head>
+
+<body>
+
+  <div ng-controller="MainController">
+    <div> {{ title }}</div>
+    <form>
+      add todo
+      <input type="text">
+      <input type="submit">
+    </form>
+    <div ng-repeat="todo in todos">
+      <li>{{ todo.todo }}</li>
+    </div>
+  </div>
+
+  <script src="app/controllers/MainController.js"></script>
+</body>
+
+</html>
