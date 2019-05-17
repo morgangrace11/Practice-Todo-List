@@ -9,10 +9,10 @@
 
   <div ng-controller="MainController">
     <div> {{ title }}</div>
-    <form>
+    <form name="myForm">
       add todo
-      <input type="text">
-      <input type="submit">
+      <input ng-change="change()" type="text">
+      <input ng-click="addTodo(myForm.todo)" type="submit">
     </form>
     <div ng-repeat="todo in todos">
       <li>{{ todo.todo }}</li>
